@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://JAVA.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+
+	<servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.IndexServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListadoServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.ListadoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EquipoServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.EquipoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ActualizarAlumnoServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.ActualizarAlumnoServlet</servlet-class>
+    </servlet>
+	<servlet>
+        <servlet-name>EliminarAlumnoServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.EliminarAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertarAlumnoServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.InsertarAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostrarAlumnoServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.MostrarAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostrarAlumnosServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.MostrarAlumnosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostrarCursosServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.MostrarCursosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostrarNotasServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.MostrarNotasServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostrarAlumnoListadoServlet</servlet-name>
+        <servlet-class>com.venancio.daw.proyectoClaseSSNN.MostrarAlumnoListadoServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListadoServlet</servlet-name>
+        <url-pattern>/listado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EquipoServlet</servlet-name>
+        <url-pattern>/Equipo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ActualizarAlumnoServlet</servlet-name>
+        <url-pattern>/actualizarAlumno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EliminarAlumnoServlet</servlet-name>
+        <url-pattern>/eliminarAlumno</url-pattern>
+    </servlet-mapping>    
+    <servlet-mapping>
+        <servlet-name>InsertarAlumnoServlet</servlet-name>
+        <url-pattern>/insertarAlumno</url-pattern>
+    </servlet-mapping>    
+    <servlet-mapping>
+        <servlet-name>MostrarAlumnoServlet</servlet-name>
+        <url-pattern>/mostrarAlumno</url-pattern>
+    </servlet-mapping>   
+    <servlet-mapping>
+        <servlet-name>MostrarAlumnosServlet</servlet-name>
+        <url-pattern>/mostrarAlumnos</url-pattern>
+    </servlet-mapping>    
+    <servlet-mapping>
+        <servlet-name>MostrarCursosServlet</servlet-name>
+        <url-pattern>/mostrarCursos</url-pattern>
+    </servlet-mapping>    
+    <servlet-mapping>
+        <servlet-name>MostrarNotasServlet</servlet-name>
+        <url-pattern>/mostrarNotas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MostrarAlumnoListadoServlet</servlet-name>
+        <url-pattern>/mostrarAlumnoListado</url-pattern>
+    </servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>default </servlet-name>
+		<url-pattern>*.css</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>default </servlet-name>
+		<url-pattern>*.js</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>default </servlet-name>
+		<url-pattern>*.png</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>default </servlet-name>
+		<url-pattern>*.jpg</url-pattern>
+	</servlet-mapping>
+
+</web-app>

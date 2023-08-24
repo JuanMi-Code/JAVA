@@ -1,0 +1,134 @@
+<<<<<<< HEAD:src/test/java/venancio/daw/tema8/css/style.css
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(174, 174, 174);
+}
+
+.navbar {
+    min-height: 90px;
+    background-color: black;
+}
+
+.imgBoton{
+    height: 40px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.nav-link{
+    border: 4px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.btn {
+    padding: 1rem;
+}
+
+.content {
+    max-width: 500px;
+
+}
+
+.lista_nombres {
+    list-style-type: none; 
+    color: black;  
+}
+.imgSN {
+    margin-top: 50px;
+    height: 250px;
+    width:500px;
+}
+
+.pie {
+    text-align: center;
+    margin-top: 100px;
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.lista_operaciones {
+    margin-top: 25px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding: 10px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+.dropdown {
+    margin-top: 50px;
+    margin-left: 150px;
+    
+}
+=======
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(174, 174, 174);
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.nav-link{
+    border: 4px;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.btn {
+    padding: 1rem;
+}
+
+.content {
+    max-width: 500px;
+
+}
+
+
+
+.img-fluid {
+    margin-top: 50px;
+    height: 400px;
+    width: 1rempx;
+}
+
+.pie {
+    text-align: center;
+    margin-top: 100px;
+    
+    background-color: rgb(114, 168, 239);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.operaciones {
+    margin-top: 25px;
+}
+>>>>>>> Develop:src/main/webapp/css/style.css
